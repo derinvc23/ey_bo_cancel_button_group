@@ -10,9 +10,11 @@
     'depends': [
         'base',
         'sale',
+        'dev_customer_credit_limit',
         'account',
         'account_cancel',
-        'product'
+        'product',
+        'tax_invoice_report'
     ],
     'data': [
         'security/security.xml',
